@@ -1,0 +1,19 @@
+{
+    "name": "twitter-bot",
+    "version": "1.0.0",
+    "description": "A Wordle Solver written in Typescript that uses the Wordle Twitter Bot to automatically Calculate the Correct Solution.",
+    "main": "index.ts",
+    "private": false,
+    "scripts": {
+      "solve": "node index.ts",
+      "backfill": "node backfill-tweets.ts"
+    },
+    "dependencies": {
+      "imgur": "2.1.3",
+      "puppeteer": "13.1.1",
+      "tslib": "2.3.1",
+      "twitter-api-v2": "1.9.1",
+      "yargs": "17.3.1"
+    }
+  }
+  
