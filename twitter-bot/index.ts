@@ -11,16 +11,17 @@ const {
 const { hideBin } = require('yargs/helpers');
 const argv = yargs(hideBin(process.argv)).argv;
 
-const asyncTimeout = (timeout) =>
+const asyncTimeout = (timeout: number) =>
   new Promise<void>((resolve) => setTimeout(() => resolve(), timeout));
 
 const clickModalCloseButton = async (page: { evaluate: (arg0: (_: any) => void) => any; }) => {
   await page.evaluate((_) => {
+    var document : any;
     document
       .querySelector('game-app')
       .shadowRoot.querySelector('game-modal')
       .shadowRoot.querySelector('game-icon[icon="close"]')
-      .click();
+      .click()
   });
 
   await asyncTimeout(500);

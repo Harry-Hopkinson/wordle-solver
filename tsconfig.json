@@ -4,5 +4,5 @@
       "target": "ES2018",
       "module": "none"
     },
-    "include": ["src/**/*.ts", "twitter-bot/**/*.ts", "twitter-bot/mock-page-date.js"]
+    "include": ["src/**/*.ts", "twitter-bot/**/*.ts", "twitter-bot/mock-page-date.js", "twitter-bot/index.ts"]
 }  
