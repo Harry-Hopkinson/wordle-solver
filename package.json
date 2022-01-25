@@ -1,0 +1,17 @@
+{
+    "name": "wordle-solver",
+    "version": "1.0.0",
+    "description": "A Wordle Solver written in Typescript that uses the Wordle Twitter Bot to automatically Calculate the Correct Solution.",
+    "main": "build/index.js",
+    "repository": "git+https://github.com/Harry-Hopkinson/wordle-solver",
+    "author": "Harry Hopkinson",
+    "license": "MIT",
+    "private": false,
+    "files": [
+      "build/index.js"
+    ],
+    "devDependencies": {
+      "typescript": "4.5.4"
+    }
+  }
+  

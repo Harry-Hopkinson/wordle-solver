@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "outDir": "build",
+      "target": "ES2018",
+      "module": "none"
+    },
+    "include": ["src/**/*.ts"]
+  }
+  
